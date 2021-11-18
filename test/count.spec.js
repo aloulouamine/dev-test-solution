@@ -12,7 +12,7 @@ describe('Count people and animals', () => {
     });
 
     it('should display animals count', () => {
-        let people = result[0].people[0];
+        const people = result[0].people[0];
         expect(people.name).toEqual(`${data[0].people[0].name} [${people.animals.length}]`);
     })
 })
