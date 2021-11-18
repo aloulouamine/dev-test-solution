@@ -1,0 +1,28 @@
+{
+  "name": "dev-test-solution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "bin": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aloulouamine/dev-test-solution.git"
+  },
+  "author": "Amine ALOULOU",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aloulouamine/dev-test-solution/issues"
+  },
+  "homepage": "https://github.com/aloulouamine/dev-test-solution#readme",
+  "volta": {
+    "node": "16.13.0",
+    "npm": "7.24.2"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  }
+}
