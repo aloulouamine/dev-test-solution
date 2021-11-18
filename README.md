@@ -39,4 +39,8 @@ node app.js [options]
 npm test
 ```
 
-test is simply using mocha.
+~~Test is simply using mocha.~~
+
+I switched to jest because mocha doesn't support esm in watch mode :( https://mochajs.org/#nodejs-native-esm-support
+
+jest do support esm in experimental mode with this variable `NODE_OPTIONS=--experimental-vm-modules`
