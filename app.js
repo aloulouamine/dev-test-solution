@@ -6,14 +6,17 @@
  * file ;).
  */
 import data from './data.cjs';
+import { readArgs } from './read-args.js';
 
 
 /**
  * An entry function for cli. Magic happens here.
  */
-function main() {
-    // reading data
+async function main() {
+    // reading arguments
     console.log(data)
+    const { option, value } = readArgs();
+
 }
 
 main();
