@@ -5,7 +5,10 @@
  * can see, extension is telling node how to deal with 
  * file ;).
  */
-import data from './data.cjs';
+import {data} from './data.cjs';
+
+import { COUNT_ARG_NAME, COUNT_SHORT_ARG_NAME } from './const.js';
+import { count } from './count.js';
 import { readArgs } from './read-args.js';
 
 
@@ -14,8 +17,10 @@ import { readArgs } from './read-args.js';
  */
 async function main() {
     // reading arguments
-    console.log(data)
     const { option, value } = readArgs();
+    if ([COUNT_ARG_NAME, COUNT_SHORT_ARG_NAME].includes(option)) {
+        return count(data);
+    }
 
 }
 
