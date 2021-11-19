@@ -11,4 +11,4 @@ export const OPTIONS_NEED_VALUE_REGEX = /^(--filter|-f)=(.*)$/g;
 
 // a string message to help cli user.s
 export const HELP_MESSAGE = `You should provide at least one option, 
-see https://github.com/aloulouamine/dev-test-solution`;
+see https://github.com/aloulouamine/dev-test-solution#options-reference`;
