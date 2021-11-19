@@ -10,6 +10,9 @@ TL;~~DR~~ install [volta](https://volta.sh/)
 
 > Don't worry, there is a chance that this work without the exact required environment 🤞 
 
+> This was tested developed and tested in a POSIX environment (Ubuntu). if you are running this from Windows I don't guarentee 
+compatibility, so please mind the gap.
+
 ## Usage
 
 - Step 1: install dependencies
@@ -44,3 +47,11 @@ npm test
 I switched to jest because mocha doesn't support esm in watch mode :( https://mochajs.org/#nodejs-native-esm-support
 
 jest do support esm in experimental mode with this variable `NODE_OPTIONS=--experimental-vm-modules`
+
+## Roadmap
+
+- [ ] Dockerize developer environment
+- [ ] Publish as npm package (allow using my awesome program via npx for example with package.json bin property)
+- [ ] Create ci with github actions (test / publish)
+- [ ] Introduce a CHANGELOG.md file
+- [x] Shout out in Twitter 🐦 about this awesome application (kidding, this is secret, I don't want every body will pass `ACME COMPANY` node js test with god mode, like me I mean...)
