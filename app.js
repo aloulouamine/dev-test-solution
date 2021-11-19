@@ -38,6 +38,10 @@ function main() {
 			console.log(HELP_MESSAGE);
 			return;
 		}
+		// spec says 'Empty array after filtering are NOT returned'
+		if (result === null) {
+			return;
+		}
 		// pretty print output
 		console.log(JSON.stringify(result, null, 2))
 		// exit process with success.
