@@ -12,10 +12,10 @@ import {
 	FILTER_ARG_NAME,
 	FILTER_SHORT_ARG_NAME,
 	HELP_MESSAGE
-} from './const.js';
-import { count } from './count.js';
-import { filter } from './filter.js';
-import { readArgs } from './read-args.js';
+} from './src/const.js';
+import { count } from './src/count.js';
+import { filter } from './src/filter.js';
+import { readArgs } from './src/read-args.js';
 
 
 

@@ -1,5 +1,5 @@
 import { data } from '../data.cjs';
-import { filter } from '../filter.js';
+import { filter } from '../src/filter.js';
 
 describe('Filtering by search query', () => {
     it('should return null when search match 0 result.', () => {

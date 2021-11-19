@@ -1,5 +1,9 @@
-import { COUNT_ARG_NAME, COUNT_SHORT_ARG_NAME, FILTER_ARG_NAME } from '../const.js';
-import { readArgs } from '../read-args.js';
+import {
+    COUNT_ARG_NAME,
+    COUNT_SHORT_ARG_NAME,
+    FILTER_ARG_NAME
+} from '../src/const.js';
+import { readArgs } from '../src/read-args.js';
 
 describe('Read arguments', () => {
     beforeEach(() => {

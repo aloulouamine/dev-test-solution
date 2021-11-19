@@ -1,4 +1,4 @@
-import { count } from '../count.js';
+import { count } from '../src/count.js';
 import { data } from '../data.cjs';
 describe('Count people and animals', () => {
 

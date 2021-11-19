@@ -1,9 +1,12 @@
 import process from 'process';
 import {
     COUNT_ARG_NAME,
-    COUNT_SHORT_ARG_NAME, HELP_ARG_NAME, HELP_MESSAGE, HELP_SHORT_ARG_NAME,
+    COUNT_SHORT_ARG_NAME, 
+    HELP_ARG_NAME, 
+    HELP_MESSAGE, 
+    HELP_SHORT_ARG_NAME,
     OPTIONS_NEED_VALUE_REGEX
-} from './const.js';
+} from '../src/const.js';
 
 /**
  * Reading process args, filtering and extracting values handled by this awesome
