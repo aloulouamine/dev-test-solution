@@ -2,7 +2,7 @@
  * Calculate the number of people for each town and the number
  * of animals for each person. 
  * 
- * @param {object} data 
+ * @param {object} data a collection of town, people and animals.
  * @returns {object} in name calculated people and animals.
  */
 export function count(data) {
